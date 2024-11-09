@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  background-color: #0044cc;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Menú horizontal */
+.menu-horizontal {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-horizontal li {
+  margin: 0 15px;
+}
+
+.menu-horizontal li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-horizontal li a:hover {
+  text-decoration: underline;
+}
+
+/* Sección de contenido */
+section {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Imagen de avatar */
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+/* Proyecto */
+.proyecto {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.proyecto img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+a {
+  color: #0044cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.no-points {
+  list-style-type: none;
+  padding-left: 0;
+}
